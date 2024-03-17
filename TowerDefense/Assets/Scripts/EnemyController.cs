@@ -21,11 +21,17 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (_thePath == null)
+        {
         //when the game starts, we will instantly assign _thePath to the object that has the Path script
         _thePath = FindObjectOfType<Path>();
+        }
 
+        if(_theCastle == null)
+        {
         //sets _theCastle to the game object "Castle".
         _theCastle = FindAnyObjectByType<Castle>();
+        }
 
         //sets our attack counter to timeBetweenAttacks so we can start counting down.
         attackCounter = timeBetweenAttacks;
@@ -69,5 +75,11 @@ public class EnemyController : MonoBehaviour
                 _theCastle.TakeDamage(damagePerAttack);
             }
         }
+    }
+
+    public void Setup(Castle newCastle, Path newPath)
+    {
+        _theCastle = newCastle;
+        _thePath = newPath;
     }
 }

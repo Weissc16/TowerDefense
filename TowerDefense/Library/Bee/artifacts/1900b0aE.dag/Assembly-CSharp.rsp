@@ -344,6 +344,7 @@
 "Assets/Scripts/Castle.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/Path.cs"
+"Assets/Scripts/SimpleEnemySpawner.cs"
 -langversion:9.0
 
 /deterministic

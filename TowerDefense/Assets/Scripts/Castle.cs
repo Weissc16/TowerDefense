@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Castle : MonoBehaviour
 {
     public float totalHealth = 100f;
 
     private float _currentHealth;
 
+    public Slider healthSlider;
+
     // Start is called before the first frame update
     void Start()
     {
         //set the current health of our castle to the max health when the game starts.
         _currentHealth = totalHealth;
+
+        healthSlider.maxValue = totalHealth;
+        healthSlider.value = _currentHealth;
     }
 
     // Update is called once per frame
@@ -34,5 +39,7 @@ public class Castle : MonoBehaviour
             //turns off the object when its current health reaches 0.
             gameObject.SetActive(false);
         }
+
+        healthSlider.value = _currentHealth;
     }
 }
