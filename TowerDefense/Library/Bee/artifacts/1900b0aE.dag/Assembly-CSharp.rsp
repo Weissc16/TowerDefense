@@ -345,6 +345,9 @@
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/Path.cs"
 "Assets/Scripts/SimpleEnemySpawner.cs"
+"Assets/Scripts/Towers/Projectile.cs"
+"Assets/Scripts/Towers/ProjectileTower.cs"
+"Assets/Scripts/Towers/Tower.cs"
 -langversion:9.0
 
 /deterministic

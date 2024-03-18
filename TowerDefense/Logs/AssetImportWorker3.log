@@ -1,0 +1,367 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16084 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/weiss/GitHub/Projects/TowerDefense/TowerDefense
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55305
+Successfully changed project path to: C:/Users/weiss/GitHub/Projects/TowerDefense/TowerDefense
+C:/Users/weiss/GitHub/Projects/TowerDefense/TowerDefense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40104] Host "[IP] 10.0.0.189 [Port] 0 [Flags] 2 [Guid] 1642914745 [EditorId] 1642914745 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40104] Host "[IP] 10.0.0.189 [Port] 0 [Flags] 2 [Guid] 1642914745 [EditorId] 1642914745 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/weiss/GitHub/Projects/TowerDefense/TowerDefense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012387 seconds.
+- Loaded All Assemblies, in  0.364 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 581ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 11.95 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1220ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (99ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (83.7 KB). Loaded Objects now: 1624.
+Memory consumption went from 72.5 MB to 72.5 MB.
+Total: 3.682600 ms (FindLiveObjects: 0.118200 ms CreateObjectMapping: 0.040100 ms MarkObjects: 3.406300 ms  DeleteObjects: 0.116700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 458775.410227 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Audio/SFX/castle hit.wav
+  artifactKey: Guid(7621c2c2b07b95d4fb1d2fc04c2d653e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Audio/SFX/castle hit.wav using Guid(7621c2c2b07b95d4fb1d2fc04c2d653e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3eba2f90bf6eecfd7f43b793708a292c') in 0.121451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/tile_riverBridge.fbx
+  artifactKey: Guid(7bf631e43f0daa847b25abd40a006847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/tile_riverBridge.fbx using Guid(7bf631e43f0daa847b25abd40a006847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '047d56e7f69e14bd11c0884caa924237') in 0.057916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Penguin.mat
+  artifactKey: Guid(2c4502c46dbf6a44d866bf5e73efcfbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Penguin.mat using Guid(2c4502c46dbf6a44d866bf5e73efcfbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e9eacb2a3344590648748a5f06eebf3') in 0.049707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/snow_tile_riverCorner.fbx
+  artifactKey: Guid(2e473d656f03c4540a6ef1432bbd315b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/snow_tile_riverCorner.fbx using Guid(2e473d656f03c4540a6ef1432bbd315b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73874d41971703f126c8a0c4d1857bb6') in 0.029165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/towerRound_middleC.fbx
+  artifactKey: Guid(48d6b5afc7cfcc4479c2e67a78a56657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/towerRound_middleC.fbx using Guid(48d6b5afc7cfcc4479c2e67a78a56657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58f768d89fb73e56ceb3fbbec2769e03') in 0.036947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/woodStructure_high.fbx
+  artifactKey: Guid(ed7bfe87aa44dc846813c32fc1bda455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/woodStructure_high.fbx using Guid(ed7bfe87aa44dc846813c32fc1bda455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ad92ce49b36d38844202c138754ced6') in 0.030200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/enemy_ufoGreen.fbx
+  artifactKey: Guid(b20e7c49407906445a107d312e512932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/enemy_ufoGreen.fbx using Guid(b20e7c49407906445a107d312e512932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e79a5db9148fa4ccd862ef6ba07db423') in 0.034896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Deer.mat
+  artifactKey: Guid(39dabc4031652344c91633fbd29ad7ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Deer.mat using Guid(39dabc4031652344c91633fbd29ad7ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2042b5fb1ca6850f7d1cb2de9b7f9773') in 0.033600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Cactus.mat
+  artifactKey: Guid(f03149bc7add6494ba4189863840f6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Cactus.mat using Guid(f03149bc7add6494ba4189863840f6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5d451751a217d3a99b6ca767c25bf26') in 0.022415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Bee_Texture.png
+  artifactKey: Guid(68dd26a0dd03563499e539f8604bf260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Bee_Texture.png using Guid(68dd26a0dd03563499e539f8604bf260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a8141d3781494a1303725b70c6f3eb1') in 0.052744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/snow_tile_wideTransition.fbx
+  artifactKey: Guid(54a1d7be25bc3e24287f9d64f2ab96e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/snow_tile_wideTransition.fbx using Guid(54a1d7be25bc3e24287f9d64f2ab96e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c728a2cd2e45a10b1d545c5afc3dca9d') in 0.033008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Tree_Texture.png
+  artifactKey: Guid(c91956b224d7d2a47ae74da6353db70f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Tree_Texture.png using Guid(c91956b224d7d2a47ae74da6353db70f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54cc08c9e767e5d00ecdf6cbb3a40df7') in 0.033007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Panda_Texture.png
+  artifactKey: Guid(f917ca4ea857cfe46b29e7643cefa2df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Panda_Texture.png using Guid(f917ca4ea857cfe46b29e7643cefa2df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e804ce450ca8b4aaf383929e4bd8b68') in 0.028252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Pig_Texture.png
+  artifactKey: Guid(2f2d7e245eb590f4aab6d997ebef7048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Pig_Texture.png using Guid(2f2d7e245eb590f4aab6d997ebef7048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27ec61c54a7aa870193c7a5e599745fd') in 0.031386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Cactus.fbx
+  artifactKey: Guid(0f0375dc98cbe114aadf37036f3b47fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Cactus.fbx using Guid(0f0375dc98cbe114aadf37036f3b47fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8ba7a7193be55db6ae2a666129e86dc') in 0.077351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Bee.fbx
+  artifactKey: Guid(218218140be8e0248aca2f6998184411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Bee.fbx using Guid(218218140be8e0248aca2f6998184411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f35818a67903ca08d4769658e781593e') in 0.050743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Cthulhu.mat
+  artifactKey: Guid(dd5dae3fc0cf93d4db52281c11cc0813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Materials/Cthulhu.mat using Guid(dd5dae3fc0cf93d4db52281c11cc0813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6dac7f3641ae3cf1c12eba2cc0fb1b16') in 0.021090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Crab_Texture.png
+  artifactKey: Guid(d8dbee57eaf75044697ba534f6be1160) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Quaternius - Cute Animated Monsters/Textures/Crab_Texture.png using Guid(d8dbee57eaf75044697ba534f6be1160) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d8cffbd7963a83dfceb21c550fbafcb') in 0.044130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/towerRound_sampleF.fbx
+  artifactKey: Guid(8c9ff88555dd4604bb18e54ee793d39d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/towerRound_sampleF.fbx using Guid(8c9ff88555dd4604bb18e54ee793d39d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9761d563515938c622776d8872e47a63') in 0.038821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/towerRound_roofB.fbx
+  artifactKey: Guid(3981913a1b396f547a21081c32cf14f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Tower Defence Assets/Models/Kenney Tower Defence Kit/towerRound_roofB.fbx using Guid(3981913a1b396f547a21081c32cf14f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '399bfefb073e7cf9eedea1c291bdae9d') in 0.034536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
