@@ -17,6 +17,8 @@ public class EnemyController : MonoBehaviour
     private float attackCounter;
 
     private Castle _theCastle;
+
+    private int _selectedAttackPoint;
     
     // Start is called before the first frame update
     void Start()
@@ -40,39 +42,48 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!_reachedEnd) 
+        if(_theCastle._currentHealth > 0)
         {
-            //makes our enemy look where he is going.
-            transform.LookAt(_thePath.points[_currentPoint]);
-            //transform.position is the position x, y, z locations.  
-            //Vector3 is something that has an x, y, z value.
-            //MoveTowards function within Vector3 that we can use to move our object. it needs a current location, target location, and speed.
-            //Time.deltaTime is a way to make the speed the same for every computer whether they are running on 60fps or 100fps.
-            transform.position = Vector3.MoveTowards(transform.position, _thePath.points[_currentPoint].position, moveSpeed * Time.deltaTime);
 
-            //check the distance between 2 points and see if it is less than .01f
-            if (Vector3.Distance(transform.position, _thePath.points[_currentPoint].position) < .01f)
+            if (!_reachedEnd) 
             {
-                //if the distance to the first point is < .01f, we go to the next point.
-                _currentPoint += 1;
-                //if _curretPoint reaches our final point, stop moving.
-                if (_currentPoint >= _thePath.points.Length)
+                //makes our enemy look where he is going.
+                transform.LookAt(_thePath.points[_currentPoint]);
+                //transform.position is the position x, y, z locations.  
+                //Vector3 is something that has an x, y, z value.
+                //MoveTowards function within Vector3 that we can use to move our object. it needs a current location, target location, and speed.
+                //Time.deltaTime is a way to make the speed the same for every computer whether they are running on 60fps or 100fps.
+                transform.position = Vector3.MoveTowards(transform.position, _thePath.points[_currentPoint].position, moveSpeed * Time.deltaTime);
+
+                //check the distance between 2 points and see if it is less than .01f
+                if (Vector3.Distance(transform.position, _thePath.points[_currentPoint].position) < .01f)
                 {
-                    _reachedEnd = true;
+                    //if the distance to the first point is < .01f, we go to the next point.
+                    _currentPoint += 1;
+                    //if _curretPoint reaches our final point, stop moving.
+                    if (_currentPoint >= _thePath.points.Length)
+                    {
+                        _reachedEnd = true;
+
+                        _selectedAttackPoint = Random.Range(0, _theCastle.attackPoints.Length);
+                    }
                 }
             }
-        }
-        else
-        {
-            //makes our attack counter count down
-            attackCounter -= Time.deltaTime;
-            if (attackCounter <= 0)
+            else
             {
-                //if attackCounter reaches 0, we reset the counter and set it equal to timeBetweenAttacks
-                attackCounter = timeBetweenAttacks;
 
-                //once the attackCounter reaches 0, enemy attacks the castle and deals damage equal to the enemies damagePerAttack.
-                _theCastle.TakeDamage(damagePerAttack);
+                transform.position = Vector3.MoveTowards(transform.position, _theCastle.attackPoints[_selectedAttackPoint].position, moveSpeed * Time.deltaTime);
+
+                //makes our attack counter count down
+                attackCounter -= Time.deltaTime;
+                if (attackCounter <= 0)
+                {
+                    //if attackCounter reaches 0, we reset the counter and set it equal to timeBetweenAttacks
+                    attackCounter = timeBetweenAttacks;
+
+                    //once the attackCounter reaches 0, enemy attacks the castle and deals damage equal to the enemies damagePerAttack.
+                    _theCastle.TakeDamage(damagePerAttack);
+                }
             }
         }
     }

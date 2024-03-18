@@ -26,7 +26,7 @@ public class SimpleEnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (amountToSpawn > 0)
+        if (amountToSpawn > 0 && theCastle._currentHealth > 0)
         {
             _spawnCounter -= Time.deltaTime;
             if (_spawnCounter <= 0)

@@ -5,10 +5,12 @@ using UnityEngine.UI;
 public class Castle : MonoBehaviour
 {
     public float totalHealth = 100f;
-
-    private float _currentHealth;
+    [HideInInspector]
+    public float _currentHealth;
 
     public Slider healthSlider;
+
+    public Transform[] attackPoints;
 
     // Start is called before the first frame update
     void Start()
